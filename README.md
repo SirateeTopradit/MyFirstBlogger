@@ -1,2 +1,2 @@
 # MyFirstBlogger
-Web : https://myfirstblogger.netlify.app/#blog
+Web : https://myfirstblogger.netlify.app/
