@@ -15,16 +15,22 @@
         <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
         <link rel="stylesheet" href="./css/aos.css" />
         <link rel="stylesheet" href="./css/Style.css" />
+        <meta property="og:title" content="Siratee webblog" />
+        <meta property="og:image" content="./assets/Background-image.jpg" />
+        <meta property="og:description"
+            content="กดมาได้เลย เว็ปนี้เป็นเว็ปบล็อก ไม่ใช่เว็บอินโดดูดข้อมูล"/>
+        
+
         
     </head>
 
     <body>
-        
+
         <!--   Nav  -->
         <nav class="nav">
             <div class="nav-menu flex-row">
                 <div class="nav-brand">
-                    <a href="#" class="text-gray">บล็อกเกอร์</a>
+                    <a href="#" class="effect">บล็อกเกอร์</a>
                 </div>
                 <div class="toggle-collapse">
                     <div class="toggle-icons">
@@ -61,6 +67,7 @@
                     data-aos="fade-up"
                     data-aos-delay="100"
                 >
+                    
                     <h3 class="textShineBlack">Siratee topradit</h3>
                     <h1>Hi!, I'm <span id="type"></span></h1>
                     <button class="btn" onclick="location.href='#blog'" type="button">Discovery</button>
@@ -102,14 +109,32 @@
                         }
                     }
                 </script>
+                <svg viewbox="0 0 100 20">
+                    <defs>
+                        <pattern id="wave" x="0" y="-0.5" width="175%" height="100%" patternUnits="userSpaceOnUse">
+                        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="#e73c7e"> 
+                            <animateTransform
+                                attributeName="transform"
+                                begin="0s"
+                                dur="1.5s"
+                                type="translate"
+                                from="0,0"
+                                to="40,0"
+                                repeatCount="indefinite" />
+                        </path>
+                        </pattern>
+                    </defs>
+                    <text text-anchor="middle" x="50" y="15" font-size="17" fill="black" fill-opacity="0.5">Popular Post</text>
+                    <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="1">Popular Post</text>
+                </svg>
                 <div class="site-content"">
-                    <div class="posts">
+                    <div class="posts"  id="blog">
                         <div
                             class="post-content"
                             data-aos="zoom-in"
                             data-aos-delay="50"
                         >
-                            <div class="post-image" id="blog">
+                            <div class="post-image">
                                 <div>
                                     <img
                                         src="./assets/Blog-post/rino.webp"
@@ -136,10 +161,10 @@
                                         จนกระทั่งในปี 1959 อิตาโบไร มาร์ตินส์ นักข่าวแห่งหนึ่งในเซาเปาโล ได้ผุดคิดสุดยอดไอเดียที่จะทำให้ประวัติศาสตร์ต้องจารึก นั่นก็คือการนำ "แรด" มาลงสมัครรับเลือกตั้ง <br>&nbsp&nbsp&nbsp&nbspคาคาเรโค ไม่ใช่สัตว์ตัวแรกที่ลงสมัคร  เพราะเมื่อ ปี 1955 ผู้คนจากจากชุมชนอุตสาหกรรม ในจาโบเตา เมืองในรัฐเปร์นัมบูโก ประเทศบราซิล ต่างโหวตเลือกตั้งแพะตัวหนึ่งที่ชื่อว่าเฟรแกรนท์ เพื่อแสดงออกถึงความรังเกียจต่อระบอบการปกครองของ Red-lining ในช่วงเวลานั้น
                                         <br>&nbsp&nbsp&nbsp&nbsp เมืองเซาเปาโล (pop. 3,650,000) ได้มีการประกาศเลือกตั้งสมาชิกสภาเทศบาลเมืองซึ่งจะเลือกตั้งในวันที่ 7 ตุลาคม ค.ศ.1959 มีผู้สมัคร 540 คน จากที่นั่งในสภาทั้งหมด 45 ที่นั่ง<br>&nbsp&nbsp&nbsp&nbsp
                                         อิตาโบไร มาร์ตินส์ ซึ่งไม่พอใจระบอบการปกครองในช่วงเวลานั้น และ กลุ่มนักศึกษา,นักเรียนที่เห็นด้วยก็ได้ร่วมได้ทำการพิมพ์บัตรปลอมที่แทรกชื่อของเจ้าแรดคาคาเรโคลงไป
-                                        <br><br><p class="textShineBlack">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>ด้วยนโยบายที่ว่า “เลือกแรดดีกว่าลา”(คนโง่) </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"Better to elect a rhino than an ass."</p>
-                                        <br>&nbsp&nbsp&nbsp&nbspเจ้าแรดคาคาเรโคได้รับคะแนนสูงที่สุดอันดับหนึ่ง แต่ถึงการนั้น กกตใของบราซิลได้ประชุมหารือกัน และสรุปว่าคะแนนของคาคาเรโคโมฆะทั้งหมด นักสังคมวิทยาคนหนึ่งอธิบายว่า "การที่ประชาชนเลือกคาคาเรโคอย่างถล่มทลาย และสิ่งนี้บ่งชี้ว่าบราซิลกำลังอยู่ในจุดที่เกิดการเปลี่ยนแปลง"<p class="textShineBlack"><b>"No one pretends that democracy is perfect or all-wise.
+                                        <br><p class="textShineBlack" style="text-align: center;"><b>&nbsp&nbsp&nbsp&nbspด้วยนโยบายที่ว่า “เลือกแรดดีกว่าลา”(คนโง่)<br> </b>&nbsp&nbsp&nbsp&nbsp"Better to elect a rhino than an ass."</p>
+                                        &nbsp&nbsp&nbsp&nbspเจ้าแรดคาคาเรโคได้รับคะแนนสูงที่สุดอันดับหนึ่ง แต่ถึงการนั้น กกตใของบราซิลได้ประชุมหารือกัน และสรุปว่าคะแนนของคาคาเรโคโมฆะทั้งหมด นักสังคมวิทยาคนหนึ่งอธิบายว่า "การที่ประชาชนเลือกคาคาเรโคอย่างถล่มทลาย และสิ่งนี้บ่งชี้ว่าบราซิลกำลังอยู่ในจุดที่เกิดการเปลี่ยนแปลง"<p class="textShineBlack"><b>&nbsp&nbsp&nbsp&nbsp"No one pretends that democracy is perfect or all-wise.
                                             Indeed, it has been said that democracy is worst form of government
-                                            except all those other forms that have been tried from time to time"<br>“ไม่มีใครแสร้งทำว่าประชาธิปไตยคือรูปแบบการปกครองที่ดีที่สุด แท้จริงแล้ว มันอาจเป็นรูปแบบการปกครองที่แย่ที่สุดของรัฐบาลหากไม่นับระบอบการปกครองทั้งหมดที่เราเคยพยายามใช้มาครั้งแล้วครั้งเล่า”</b><br>
+                                            except all those other forms that have been tried from time to time"<br>&nbsp&nbsp&nbsp&nbsp“ไม่มีใครแสร้งทำว่าประชาธิปไตยคือรูปแบบการปกครองที่ดีที่สุด แท้จริงแล้ว มันอาจเป็นรูปแบบการปกครองที่แย่ที่สุดของรัฐบาลหากไม่นับระบอบการปกครองทั้งหมดที่เราเคยพยายามใช้มาครั้งแล้วครั้งเล่า”</b><br>
                                             Winston Churchill.</p><br>
                                             </span></div>
                                 </p>
